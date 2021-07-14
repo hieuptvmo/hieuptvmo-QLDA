@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-14T18:56:21.357Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="57dp7ogg8ZKzRWY7UOFT" version="14.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-14T19:01:19.216Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="aB-JalfduebnTKj4B0Cz" version="14.8.6" type="github">
   <diagram id="8frxbMPDA_A4CYh-UbdC" name="Page-1">
-    <mxGraphModel dx="311" dy="271" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="545" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -82,7 +82,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PGVaX1nrfL_rUsU0WxcV-5" value="Tech" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="240" y="280" width="110" height="140" as="geometry" />
+          <mxGeometry x="240" y="280" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PGVaX1nrfL_rUsU0WxcV-104" value="Id" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="PGVaX1nrfL_rUsU0WxcV-5">
+          <mxGeometry x="40" y="30" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PGVaX1nrfL_rUsU0WxcV-105" value="Name" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="PGVaX1nrfL_rUsU0WxcV-5">
+          <mxGeometry x="30" y="50" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="PGVaX1nrfL_rUsU0WxcV-9" value="Tech-user" style="swimlane;startSize=23;" vertex="1" parent="1">
           <mxGeometry x="40" y="370" width="120" height="80" as="geometry" />
@@ -94,7 +100,10 @@
           <mxGeometry x="35" y="50" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="PGVaX1nrfL_rUsU0WxcV-10" value="Tech-project" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="440" y="280" width="110" height="140" as="geometry" />
+          <mxGeometry x="440" y="280" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PGVaX1nrfL_rUsU0WxcV-101" value="Tech_id" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="PGVaX1nrfL_rUsU0WxcV-10">
+          <mxGeometry x="25" y="30" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="PGVaX1nrfL_rUsU0WxcV-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PGVaX1nrfL_rUsU0WxcV-11" target="PGVaX1nrfL_rUsU0WxcV-12">
           <mxGeometry relative="1" as="geometry" />
@@ -115,13 +124,28 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PGVaX1nrfL_rUsU0WxcV-14" value="Customer" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="40" y="720" width="110" height="140" as="geometry" />
+          <mxGeometry x="40" y="720" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="PGVaX1nrfL_rUsU0WxcV-106" value="Id" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="PGVaX1nrfL_rUsU0WxcV-14">
+          <mxGeometry x="40" y="30" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PGVaX1nrfL_rUsU0WxcV-107" value="Name" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="PGVaX1nrfL_rUsU0WxcV-14">
+          <mxGeometry x="30" y="50" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PGVaX1nrfL_rUsU0WxcV-108" value="Description" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="PGVaX1nrfL_rUsU0WxcV-14">
+          <mxGeometry x="15" y="70" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="PGVaX1nrfL_rUsU0WxcV-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="PGVaX1nrfL_rUsU0WxcV-15" target="PGVaX1nrfL_rUsU0WxcV-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PGVaX1nrfL_rUsU0WxcV-15" value="Type" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="240" y="720" width="110" height="140" as="geometry" />
+          <mxGeometry x="240" y="880" width="110" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="PGVaX1nrfL_rUsU0WxcV-110" value="Id" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="PGVaX1nrfL_rUsU0WxcV-15">
+          <mxGeometry x="40" y="30" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PGVaX1nrfL_rUsU0WxcV-111" value="Name" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="PGVaX1nrfL_rUsU0WxcV-15">
+          <mxGeometry x="30" y="50" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="PGVaX1nrfL_rUsU0WxcV-16" value="Unit-project" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="440" y="520" width="110" height="140" as="geometry" />
@@ -158,6 +182,9 @@
         </mxCell>
         <mxCell id="PGVaX1nrfL_rUsU0WxcV-67" value="Unit_id" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="PGVaX1nrfL_rUsU0WxcV-18">
           <mxGeometry x="30" y="50" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PGVaX1nrfL_rUsU0WxcV-103" value="Project_id" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="340" width="70" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
